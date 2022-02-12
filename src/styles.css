@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.search-engine {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.day {
+  text-align: center;
+  font-size: 12px;
+}
+
+.card {
+  text-align: center;
+}

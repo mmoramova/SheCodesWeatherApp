@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather app</title>
+    <meta charset="UTF-8" />
+    <script src="https://kit.fontawesome.com/bf7885b0f5.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+      <div class = "container">
+    <form class="search-engine" id="search-engine">
+        <input type="text" id="search-input" placeholder="search for city" autocomplete="off" autofocus="on"/>
+        <input type="submit" value="Search" /> 
+        <button>Current Position</button>
+    </input>
+       </form>
+   
+
+        <h1 id="city"></h1>
+<h2>
+        <i class="fas fa-cloud-sun"></i>
+        <p id="actual-date"></p>
+        <span class="temperaturedescription" id="temperaturedescription"></span>
+        <span class="temperaturenow" id="temperaturenow"></span>
+
+      <span class="units"> <a href="#" id="celsius-link"> °C</a> / <a href="#" id="fahrenheit-link"> °F</a></span>
+</h2>
+
+        
+<div class = "row">
+  <div class="col">
+   <div class= "card">
+    <div class= "card-body">
+        <div class= "day">
+      Monday</div>
+      <i class="fas fa-cloud-sun-rain"></i>
+      <div class= "temperatureold">22°C / </div>
+    </div>
+   </div>
+  </div>
+  <div class="col">
+   <div class= "card">
+    <div class= "card-body">
+        <div class= "day">
+      Tuesday</div>
+      <i class="fas fa-sun"></i>
+      <div class= "temperature">22°</div>
+    </div>
+   </div>
+  </div>
+        <div class="col">
+            <div class= "card">
+              <div class= "card-body">
+                  <div class= "day">
+                  Wednesday</div>
+                
+    <i class="fas fa-cloud"></i>
+    <div class= "temperature">22°</div>
+    </div>
+            </div>
+          </div>      <div class="col">
+              <div class= "card">
+                <div class= "card-body">
+                    <div class= "day">
+                    Thursday</div>
+                  <i class="fas fa-cloud-sun-rain"></i>
+                  <div class= "temperature">
+                  22°</div>
+                </div>
+              </div>
+            </div>      <div class="col">
+                <div class= "card">
+                  <div class= "card-body">
+                      <div class= "day">
+                    Friday</div>
+
+                    <i class="fas fa-cloud-showers-heavy"></i>
+                    <div class= "temperature">
+                      22° </div>
+                </div>
+              
+            </div>
+
+  </div>
+  </body>
+   <script src="src/index.js"></script>
+</html>
